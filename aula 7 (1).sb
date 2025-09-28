@@ -1,8 +1,12 @@
 TextWindow.WriteLine("Calculo de IMC (Índice de Massa Corpórea)")
+
 TextWindow.WriteLine("Digite seu Peso:")
 Peso = TextWindow.Read()
+
 TextWindow.WriteLine("Digite sua Altura:")
 Altura = TextWindow.Read()
+
 Resultado=Peso/(Altura*Altura)
+
 TextWindow.WriteLine("Seu IMC é:")
 TextWindow.WriteLine(Resultado)
