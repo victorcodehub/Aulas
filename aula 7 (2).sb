@@ -1,4 +1,4 @@
-TextWindow.WriteLine("Multiplicando 2 Numeros")
+TextWindow.WriteLine("Multiplicando dois Números")
 
 TextWindow.WriteLine("Digite o Primeiro Valor:")
 Primeiro = TextWindow.Read()
@@ -10,3 +10,4 @@ Resultado=Primeiro*Segundo
 
 TextWindow.WriteLine("O Resultado é:")
 TextWindow.WriteLine(Resultado)
+
