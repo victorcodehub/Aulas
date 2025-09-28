@@ -5,13 +5,14 @@ Digitado = TextWindow.Read()
 Tentativas = 0
 
 While Digitado<>Senha And Tentativas <3
-TextWindow.WriteLine("Digite a Senha")
-Tentativas = Tentativas+1
-Digitado = TextWindow.Read()
+  TextWindow.WriteLine("Digite a Senha")
+  TextWindow.WriteLine("Senha Errada")
+  Tentativas = Tentativas+1
+  Digitado = TextWindow.Read()
 EndWhile
 
 If Digitado=Senha Then
   TextWindow.WriteLine("Você Acertou a Senha!")
   Else
-    TextWindow.WriteLine("Excesso de tentativas!")
-  EndIf
+  TextWindow.WriteLine("Excesso de tentativas!")
+EndIf
