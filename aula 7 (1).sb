@@ -10,3 +10,5 @@ Resultado=Peso/(Altura*Altura)
 
 TextWindow.WriteLine("Seu IMC é:")
 TextWindow.WriteLine(Resultado)
+
+
