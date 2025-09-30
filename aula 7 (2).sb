@@ -10,3 +10,5 @@ Resultado=Primeiro*Segundo
 
 TextWindow.WriteLine("O Resultado é:")
 TextWindow.WriteLine(Resultado)
+
+
