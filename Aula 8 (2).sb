@@ -14,5 +14,5 @@ EndWhile
 If Digitado=Senha Then
   TextWindow.WriteLine("Você Acertou a Senha!")
   Else
-  TextWindow.WriteLine("Excesso de tentativas!")
-EndIf
+    TextWindow.WriteLine("Excesso de tentativas!")
+  EndIf
