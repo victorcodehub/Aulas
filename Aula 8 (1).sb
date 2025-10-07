@@ -12,8 +12,3 @@ EndWhile
 If Numero=Senha Then
   TextWindow.WriteLine("Correto!")
 EndIf
-
-
-
-
-
