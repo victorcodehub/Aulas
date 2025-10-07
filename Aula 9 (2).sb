@@ -1,0 +1,4 @@
+GraphicsWindow.BackgroundColor = "Gray"
+GraphicsWindow.PenColor = "Magenta"
+GraphicsWindow.PenWidth = 10
+GraphicsWindow.DrawEllipse(200, 150, 120, 120)
