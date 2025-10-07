@@ -16,3 +16,7 @@ If Digitado=Senha Then
   Else
     TextWindow.WriteLine("Excesso de tentativas!")
   EndIf
+
+
+
+
