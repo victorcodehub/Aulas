@@ -21,5 +21,3 @@ Else
   TextWindow.WriteLine("Você está no seu peso ideal")
   
 EndIf
-
-  
