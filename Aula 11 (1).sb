@@ -11,7 +11,7 @@ Resultado=Peso/(Altura*Altura)
 TextWindow.WriteLine("Seu IMC é:")
 TextWindow.WriteLine(Resultado)
 
-If resultado<18.5 Then
+If Resultado<18.5 Then
   TextWindow.WriteLine("Você está abaixo do seu peso ideal")
   
 ElseIf Resultado>25 Then
@@ -21,4 +21,5 @@ Else
   TextWindow.WriteLine("Você está no seu peso ideal")
   
 EndIf
+
   
