@@ -1,0 +1,23 @@
+GraphicsWindow.BackgroundColor = "DarkGreen"
+GraphicsWindow.PenColor = "White"
+
+GraphicsWindow.MouseDown = QuandoPressionarOMouse
+GraphicsWindow.MouseMove = QuandoOMouseSeMover
+
+Sub QuandoPressionarOMouse
+  MouseX = GraphicsWindow.MouseX
+  MouseY = GraphicsWindow.MouseY
+EndSub
+
+Sub QuandoOMouseSeMover
+  x = GraphicsWindow.MouseX
+  y = GraphicsWindow.MouseY
+  
+If (Mouse.IsLeftButtonDown) Then
+  GraphicsWindow.DrawLine(MouseX, MouseY, x, y)
+
+EndIf
+MouseX = x
+MouseY = y
+EndSub
+  
