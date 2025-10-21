@@ -1,2 +1,0 @@
-GraphicsWindow.BrushColor = "Green"
-GraphicsWindow.FillRectangle(100, 70, 50, 200)
