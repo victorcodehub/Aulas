@@ -1,0 +1,18 @@
+GraphicsWindow.BackgroundColor = "Midnight"
+GraphicsWindow.FontSize = 50
+
+W = GraphicsWindow.Width
+
+While ("TRUE")
+  
+For i = 50 to 100
+  GraphicsWindow.BrushColor = GraphicsWindow.GetRandomColor()
+  A = Math.GetRandomNumber(600)
+  B = Math.GetRandomNumber(500)
+  GraphicsWindow.FillEllipse(A, B, 20, 20)
+EndFor
+
+  GraphicsWindow.BrushColor = "Black"
+  GraphicsWindow.DrawBoundText(20, 50, W-00 "Lógica de Programação")
+  
+EndWhile
